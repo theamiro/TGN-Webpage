@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Pauline Bold";
+    src: url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.eot");
+    src: url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.woff") format("woff"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.svg#Pauline Bold") format("svg"); }
+@font-face {
+    font-family: "Domus";
+    src: url('../../fonts/jaf-domus-400.ttf') format("truetype");
+}
+body{
+    font-family: 'Domus', sans-serif;
+}
+h2{
+    font-family: 'Pauline Bold',sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    margin-bottom: 30px;
+}
+h3{
+    &.title {
+        font-size: 43px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+    }
+}
+p{
+    font-family: 'Domus', sans-serif;
+    font-size: 16px;
+    &.lead {
+        font-size: 19px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        text-transform: uppercase;
+    }
+    &.fact-caption {
+        font-size: 29px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.28;
+        letter-spacing: normal;
+    }
+    &.facts-cta{
+        font-size: 23px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+    }
+    &.call-to-action{
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+    }
+    &.title {
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-transform: uppercase;
+    }
+}
