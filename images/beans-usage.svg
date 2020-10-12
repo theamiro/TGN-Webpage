@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="412px" height="302px" viewBox="0 0 412 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TGN_100520_Canned_Bean_Microsite_003" transform="translate(-680.000000, -2491.000000)">
+            <g id="Group-14" transform="translate(681.000000, 2491.000000)">
+                <polygon id="Rectangle-6-Copy-13" fill="#ACCC02" transform="translate(39.000000, 145.000000) rotate(-270.000000) translate(-39.000000, -145.000000) " points="-74 131 152 131 152 159 -74 159"></polygon>
+                <polygon id="Rectangle-6-Copy-15" fill="#ACCC02" transform="translate(171.000000, 208.000000) rotate(-270.000000) translate(-171.000000, -208.000000) " points="121 194 221 194 221 222 121 222"></polygon>
+                <polygon id="Rectangle-6-Copy-17" fill="#ACCC02" transform="translate(303.000000, 244.000000) rotate(-270.000000) translate(-303.000000, -244.000000) " points="289 230 317 230 317 258 289 258"></polygon>
+                <polygon id="Rectangle-6-Copy-14" fill="#F18345" transform="translate(77.000000, 164.000000) rotate(-270.000000) translate(-77.000000, -164.000000) " points="-17 150 171 150 171 178 -17 178"></polygon>
+                <polygon id="Rectangle-6-Copy-16" fill="#F18345" transform="translate(209.000000, 192.000000) rotate(-270.000000) translate(-209.000000, -192.000000) " points="143 178 275 178 275 206 143 206"></polygon>
+                <polygon id="Rectangle-6-Copy-18" fill="#F18345" transform="translate(341.000000, 216.000000) rotate(-270.000000) translate(-341.000000, -216.000000) " points="299 202 383 202 383 230 299 230"></polygon>
+                <text id="79%" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="29.1015625" y="15">79</tspan>
+                    <tspan x="30.8867188" y="41">%</tspan>
+                </text>
+                <text id="35%" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="161.101562" y="142">35</tspan>
+                    <tspan x="162.886719" y="168">%</tspan>
+                </text>
+                <text id="10%" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="294.101562" y="214">10</tspan>
+                    <tspan x="295.886719" y="240">%</tspan>
+                </text>
+                <text id="Canned" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="19.4960938" y="298">CANNED</tspan>
+                </text>
+                <text id="DRY-BAGGED" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="128.488281" y="298">DRY BAGGED</tspan>
+                </text>
+                <text id="FROZEN" font-family="Helvetica" font-size="18" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="285.502441" y="298">FROZEN</tspan>
+                </text>
+                <text id="66%" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="60.4882812" y="52">66%</tspan>
+                </text>
+                <text id="46%" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="192.488281" y="109">46%</tspan>
+                </text>
+                <text id="30%" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="26" fill="#263449">
+                    <tspan x="324.988281" y="158">30%</tspan>
+                </text>
+                <line x1="0" y1="259" x2="409.59375" y2="259" id="Line-3" stroke="#263449" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

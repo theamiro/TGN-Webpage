@@ -47,6 +47,9 @@ body {
         border: $green;
     }
 }
+canvas {
+    width: 100%;
+}
 .clip-path {
     position: absolute;
     top: 0;
@@ -259,11 +262,17 @@ div.call-to-action{
 .pt-80 {
     padding-top: 80px;
 }
+.pt-120 {
+    padding-top: 120px;
+}
 .pb-160 {
     padding-bottom: 160px;
 }
 .pr-10 {
     padding-right: 200px;
+}
+.pr-12 {
+    padding-right: 240px;
 }
 .button-group {
     a {
@@ -299,14 +308,41 @@ div.call-to-action{
         right: -25%;
     }
 }
-.copyright {
-    color: $blue;
-    font-size: 11px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.36;
-    letter-spacing: normal;
+
+@media only screen and (min-width: 2000px) {
+    .recipes {
+        background-position-y: -1256px;
+        background-size: cover;
+        &:before {
+            width: 40%;
+        }
+    }
+    .supporting-research{
+        &.blue-blob {
+            background-size: cover;
+        }
+    }
+    .footer {
+        padding-top: 120px;
+        .footer-logo {
+            position: relative;
+            &:before, &:after {
+                content: '';
+                position: absolute;
+                height: 2px;
+                background-color: $green;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+            }
+            &:before{
+                left: -75%;
+            }
+            &:after {
+                right: -75%;
+            }
+        }
+    }
 }
 @media only screen and (max-width: 1024px) {
     .hero {
@@ -387,6 +423,9 @@ div.call-to-action{
         }
         p.consumer {
             margin-bottom: 20px !important;
+        }
+        img.versatility-graph {
+            height: 400px;
         }
     }
     .fun-facts {
@@ -542,6 +581,10 @@ div.call-to-action{
         p.consumers {
             margin-bottom: 20px !important;
         }
+        .health-nutrition-graph {
+            height: auto;
+            width: 80%;
+        }
     }
     .plant-based {
         position: relative;
@@ -552,11 +595,18 @@ div.call-to-action{
             padding-top: 10px !important;
             padding-bottom: 40px !important;
         }
+        p.title.pt-120 {
+            padding-top: 40px !important;
+        }
+        .plant-based-graph {
+            padding-top: 20px;
+            width: 80%;
+            height: auto;
+            margin-left: 0 !important;
+        }
     }
     .display-image {
-        margin-top: -200px;
-        height: 300px;
-        width: 350px;
+        display: none;
     }
     .versatility {
         .versatility-slogan {
@@ -571,6 +621,9 @@ div.call-to-action{
         }
         p.consumer {
             margin-bottom: 20px !important;
+        }
+        img.versatility-graph {
+            height: 300px;
         }
     }
     .fun-facts {
@@ -717,6 +770,13 @@ div.call-to-action{
                 height: 1178px;
                 width: 781px;
         }
+        p.fact-caption.pr-12 {
+            padding-right: 0 !important;
+        }
+        .health-nutrition-graph {
+            width: 100%;
+            height: auto;
+        }
         .health-nutrition-slogan{
             padding-top: 40px !important;
             padding-bottom: 0px !important;
@@ -731,18 +791,28 @@ div.call-to-action{
             padding-top: 10px !important;
             padding-bottom: 40px !important;
         }
+        p.title.pt-120 {
+            padding-top: 20px !important;
+        }
+        .plant-based-graph {
+            width: 100%;
+            height: auto;
+        }
     }
     .display-image {
-        margin-top: -200px;
-        height: 300px;
-        width: 350px;
+        display: none;
     }
     .versatility {
+        padding-top: 0 !important;
         .versatility-slogan {
             padding-top: 40px;
         }
         &:before {
             display: none;
+        }
+        img.versatility-graph {
+            height: auto;
+            width: 100%;
         }
     }
     .facts {

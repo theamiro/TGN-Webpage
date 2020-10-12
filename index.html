@@ -234,28 +234,51 @@
 					</div>
 				</div>
 				<div class="row pb-5">
-					<div class="col-lg-6 col-md-12">
+					<div class="col-lg-5 col-md-12">
 						<p class="title mb-4">FREQUENCY OF EATING BEANS</p>
-						<canvas
-							id="frequencyEatingBeans"
-							height="300px"
-						></canvas>
+						<img
+							class="health-nutrition-graph"
+							src="./images/frequency-beans@2x.png"
+							alt=""
+							height="600px"
+						/>
 					</div>
-					<div class="col-lg-6 col-md-12">
-						<canvas id="beansUsage" height="150px"></canvas>
-						<p class="fact-caption text-color-green">
+					<div class="col-lg-7 col-md-12">
+						<img
+							class="health-nutrition-graph"
+							src="./images/beans-usage@2x.png"
+							alt=""
+							height="300px"
+						/>
+						<p class="fact-caption text-color-green mt-5 pr-12">
 							RDNs are much more familiar with DGA statement
 						</p>
 						<div class="row">
-							<div class="col-md-6">
-								<canvas></canvas>
-								<p>
+							<div class="col-md-4">
+								<p class="pt-5">
+									“Diets including beans may reduce your risk
+									of heart disease and certain cancers.”
+								</p>
+							</div>
+							<div class="col-md-4 justify-content-center">
+								<img
+									class="d-block mx-auto mb-4"
+									src="./images/RDNs-donut-graph.png"
+									alt=""
+									height="137px"
+								/>
+								<p class="text-center">
 									of RDNs reported having heard this statement
 								</p>
 							</div>
-							<div class="col-md-6">
-								<canvas></canvas>
-								<p>
+							<div class="col-md-4 justify-content-center">
+								<img
+									class="d-block mx-auto mb-4"
+									src="./images/having-donut-graph.png"
+									alt=""
+									height="137px"
+								/>
+								<p class="text-center">
 									of Consumers reported having heard this
 									statement
 								</p>
@@ -291,9 +314,13 @@
 			id="plant-based-diet"
 		>
 			<div class="container py-5">
-				<div class="row py-5">
-					<div class="col-lg-5 col-md-8">
+				<div class="row pt-5">
+					<div class="col-md-6">
 						<h2 class="text-white">Plant-Based Diet</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-5 col-md-9">
 						<p class="lead">
 							Eat more plants! That’s the consistent message from
 							the nutrition community. But is it realistic?
@@ -325,11 +352,59 @@
 					</div>
 					<div class="col-lg-6 col-md-12 ml-auto">
 						<p class="title">RDN Recommendations</p>
-						<!-- GRAPH -->
-						<canvas height="300px"></canvas>
-						<p class="title">Consumer plant-based diet attitudes</p>
-						<!-- GRAPH -->
-						<canvas height="600px"></canvas>
+						<div class="row">
+							<div class="col-md-6">
+								<img
+									class="mx-auto d-block mb-4"
+									src="./images/RDNs-recommendation.png"
+									alt=""
+									height="130px"
+								/>
+								<p class="text-center px-5">
+									RDNs who recommended a reduction of meat
+									intake
+								</p>
+							</div>
+							<div class="col-md-6">
+								<img
+									class="mx-auto d-block mb-4"
+									src="./images/consumers-recommendation.png"
+									alt=""
+									height="130px"
+								/>
+								<p class="text-center px-5">
+									RDNs who recommended moving toward a
+									plant-based diet
+								</p>
+							</div>
+						</div>
+						<div class="row pt-4">
+							<div class="col-md-12">
+								<div class="d-flex">
+									<div
+										class="data-label d-flex flex-row no-wrap"
+									>
+										<div class="data bg-blue"></div>
+										<div>RDNs</div>
+									</div>
+									<div
+										class="data-label d-flex flex-row no-wrap"
+									>
+										<div class="data bg-orange"></div>
+										<div>Consumers</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="title pt-120">
+							Consumer plant-based diet attitudes
+						</p>
+						<img
+							class="plant-based-graph mx-auto d-block mb-4"
+							src="./images/consumer-attitudes-graph.png"
+							alt=""
+							height="388px"
+						/>
 					</div>
 				</div>
 			</div>
@@ -359,7 +434,12 @@
 						<p class="text-uppercase">
 							Advice they give when recommending beans
 						</p>
-						<canvas height="600px"></canvas>
+						<img
+							class="versatility-graph mx-auto d-block mb-4"
+							src="./images/advice-graph.png"
+							alt=""
+							height="555px"
+						/>
 					</div>
 				</div>
 				<div class="row pb-2">
@@ -472,7 +552,9 @@
 							alt="Recipes image"
 						/>
 					</div>
-					<div class="col-lg-8 col-md-8 justify-content-end">
+					<div
+						class="col-lg-8 col-md-8 justify-content-end d-none d-md-block d-lg-block d-xl-block"
+					>
 						<img
 							class="img-fluid float-right recipe-image"
 							src="./images/recipes@2x.png"
@@ -488,7 +570,7 @@
 				<div class="row py-5">
 					<div class="col-lg-6 col-md-7">
 						<img
-							class="img-fluid float-left"
+							class="img-fluid float-left d-none d-md-block d-lg-block d-xl-block"
 							src="./images/infographics-factsheets@2x.png"
 							alt="Infographics and Fact sheets Image"
 						/>
@@ -606,7 +688,7 @@
 					</div>
 					<div class="col-lg-6 col-md-7">
 						<img
-							class="img-fluid float-right"
+							class="img-fluid float-right d-none d-md-block d-lg-block d-xl-block"
 							src="./images/supporting-research@2x.png"
 							alt="Supporting Research"
 							height="787px"
@@ -685,7 +767,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container footer">
 			<div
 				class="d-flex justify-content-center align-items-middle footer-logo"
 			>
