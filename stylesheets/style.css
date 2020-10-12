@@ -51,7 +51,7 @@ body {
 }
 @font-face {
   font-family: "Domus";
-  src: url("../../fonts/jaf-domus-400.ttf") format("truetype");
+  src: url("../fonts/jaf-domus-400.ttf") format("truetype");
 }
 /* line 9, ../sass/partials/_typography.scss */
 body {
