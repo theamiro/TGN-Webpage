@@ -1,18 +1,12 @@
-@font-face {
-    font-family: "Pauline Bold";
-    src: url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.eot");
-    src: url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.woff") format("woff"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.svg#Pauline Bold") format("svg"); }
-@font-face {
-    font-family: "Domus";
-    src: url('../fonts/jaf-domus-400.ttf') format("truetype");
-}
 body{
-    font-family: 'Domus', sans-serif;
+    font-family: "jaf-domus", sans-serif;
+    font-style: normal;
+    font-weight: 200;
 }
 h2{
-    font-family: 'Pauline Bold',sans-serif;
+    font-family: "pauline", sans-serif;
     font-size: 48px;
-    font-weight: normal;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.17;
@@ -30,10 +24,14 @@ h3{
     }
 }
 p{
-    font-family: 'Domus', sans-serif;
+    font-family: "jaf-domus", sans-serif;
+    font-style: normal;
+    font-weight: 200;
     font-size: 16px;
     &.lead {
+        font-family: "jaf-domus-titling-web", sans-serif;
         font-size: 19px;
+        font-style: normal;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -76,11 +74,14 @@ p{
     }
 }
 .copyright {
-    color: $blue;
-    font-size: 11px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.36;
-    letter-spacing: normal;
+    p{
+        font-family: "jaf-domus-titling-web", sans-serif !important;
+        color: $blue;
+        font-size: 11px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.36;
+        letter-spacing: normal;
+    }
 }

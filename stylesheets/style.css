@@ -44,25 +44,18 @@ body {
   color: #263449;
 }
 
-@font-face {
-  font-family: "Pauline Bold";
-  src: url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.eot");
-  src: url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.woff") format("woff"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/421a83aed703843dff993d34b4bad24d.svg#Pauline Bold") format("svg");
-}
-@font-face {
-  font-family: "Domus";
-  src: url("../fonts/jaf-domus-400.ttf") format("truetype");
-}
-/* line 9, ../sass/partials/_typography.scss */
+/* line 1, ../sass/partials/_typography.scss */
 body {
-  font-family: 'Domus', sans-serif;
+  font-family: "jaf-domus", sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
-/* line 12, ../sass/partials/_typography.scss */
+/* line 6, ../sass/partials/_typography.scss */
 h2 {
-  font-family: 'Pauline Bold',sans-serif;
+  font-family: "pauline", sans-serif;
   font-size: 48px;
-  font-weight: normal;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.17;
@@ -70,7 +63,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* line 23, ../sass/partials/_typography.scss */
+/* line 17, ../sass/partials/_typography.scss */
 h3.title {
   font-size: 43px;
   font-weight: bold;
@@ -80,14 +73,18 @@ h3.title {
   letter-spacing: normal;
 }
 
-/* line 32, ../sass/partials/_typography.scss */
+/* line 26, ../sass/partials/_typography.scss */
 p {
-  font-family: 'Domus', sans-serif;
+  font-family: "jaf-domus", sans-serif;
+  font-style: normal;
+  font-weight: 200;
   font-size: 16px;
 }
-/* line 35, ../sass/partials/_typography.scss */
+/* line 31, ../sass/partials/_typography.scss */
 p.lead {
+  font-family: "jaf-domus-titling-web", sans-serif;
   font-size: 19px;
+  font-style: normal;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -95,7 +92,7 @@ p.lead {
   letter-spacing: normal;
   text-transform: uppercase;
 }
-/* line 44, ../sass/partials/_typography.scss */
+/* line 42, ../sass/partials/_typography.scss */
 p.fact-caption {
   font-size: 29px;
   font-weight: bold;
@@ -104,7 +101,7 @@ p.fact-caption {
   line-height: 1.28;
   letter-spacing: normal;
 }
-/* line 52, ../sass/partials/_typography.scss */
+/* line 50, ../sass/partials/_typography.scss */
 p.facts-cta {
   font-size: 23px;
   font-weight: bold;
@@ -113,7 +110,7 @@ p.facts-cta {
   line-height: 1.13;
   letter-spacing: normal;
 }
-/* line 60, ../sass/partials/_typography.scss */
+/* line 58, ../sass/partials/_typography.scss */
 p.call-to-action {
   font-size: 16px;
   font-weight: bold;
@@ -122,7 +119,7 @@ p.call-to-action {
   line-height: 1.63;
   letter-spacing: normal;
 }
-/* line 68, ../sass/partials/_typography.scss */
+/* line 66, ../sass/partials/_typography.scss */
 p.title {
   font-size: 18px;
   font-weight: 600;
@@ -133,11 +130,12 @@ p.title {
   text-transform: uppercase;
 }
 
-/* line 78, ../sass/partials/_typography.scss */
-.copyright {
+/* line 77, ../sass/partials/_typography.scss */
+.copyright p {
+  font-family: "jaf-domus-titling-web", sans-serif !important;
   color: #263449;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 2.36;
