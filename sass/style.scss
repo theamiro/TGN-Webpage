@@ -59,7 +59,12 @@ nav{
     .navbar-toggler{
         color: #fff !important;
         border: none;
-        
+    }
+    .main-logo {
+        transition: all 300ms ease-in-out;
+    }
+    .small-logo {
+        height: 70px !important;
     }
     .navbar-nav{
         border-bottom: 1.9px solid $blue;
@@ -309,12 +314,13 @@ div.call-to-action{
     }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1441px) {
     .recipes {
-        background-position-y: -1256px;
-        background-size: cover;
+        background-position-y: -300px;
+        background-position-x: 0;
+        background-size: 120%;
         &:before {
-            width: 40%;
+            display: none;
         }
     }
     .supporting-research{
@@ -341,6 +347,13 @@ div.call-to-action{
             &:after {
                 right: -75%;
             }
+        }
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .recipe {
+        &:before {
+            display: none;
         }
     }
 }
@@ -525,16 +538,6 @@ div.call-to-action{
     }
 }
 @media only screen and (max-width: 768px) {
-    // .button-group {
-    //     a {
-    //         width: 200px;
-    //         margin-bottom: 10px;
-    //         &:last-child {
-    //             margin-right: 0;
-    //             margin-bottom: 0;
-    //         }
-    //     }
-    // }
     .hero {
         &:before{
             top: 0px;
@@ -734,10 +737,10 @@ div.call-to-action{
     }
     .hero {
         &:before{
-            top: -150px;
+            top: -30px;
             right: 0;
-            height: 500px;
-            width: 300px;
+            height: 400px;
+            width: 200px;
         }
         &:after {
             display: none;
@@ -764,11 +767,7 @@ div.call-to-action{
             padding-bottom: 0 !important;
         }
         &:after {
-            content: '';
-                top: -100px;
-                right: 0;
-                height: 1178px;
-                width: 781px;
+            display: none;
         }
         p.fact-caption.pr-12 {
             padding-right: 0 !important;
@@ -827,16 +826,29 @@ div.call-to-action{
             }
         }
     }
+    
     .recipes {
         position: relative;
         background-image: url('../images/orange-blob.svg');
         background-position-x: -30px;
-        background-position-y: -340px;
+        background-position-y: -150px;
         background-repeat: no-repeat;
         background-size: inherit;
-        .recipe-image {
-            margin-top: -100px;
-            margin-right: 0px;
+        .container{
+            .row{
+                .col-md-9 {
+                    padding-bottom: 40px !important;
+                }
+                .col-md-8 {
+                    position: relative !important;
+                    top: 0;
+                    right: 0;
+                    .recipe-image {
+                        margin-top: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
         }
         &:before{
             display: none;
@@ -845,6 +857,10 @@ div.call-to-action{
     .infographics-facts {
         .container {
             padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            .row {
+                padding-bottom: 0 !important;
+            }
         }
         .row {
             div:nth-child(1) {
@@ -855,6 +871,8 @@ div.call-to-action{
         }
     }
     .supporting-research{
+        background-size: cover !important;
+        background-position-y: -35px;
         padding-bottom: 0 !important;
         h2{
             margin-top: 60px;
@@ -867,8 +885,8 @@ div.call-to-action{
         padding-right: 0 !important;
         padding-left: 0 !important;
         .citations {
-            padding-right: 0 !important;
-            padding-left: 0 !important;
+            padding-right: 20px !important;
+            padding-left: 20px !important;
         }
     }
     .footer-logo {

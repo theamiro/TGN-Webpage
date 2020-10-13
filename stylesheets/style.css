@@ -179,21 +179,29 @@ nav .navbar-toggler {
   color: #fff !important;
   border: none;
 }
-/* line 64, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
+nav .main-logo {
+  transition: all 300ms ease-in-out;
+}
+/* line 66, ../sass/style.scss */
+nav .small-logo {
+  height: 70px !important;
+}
+/* line 69, ../sass/style.scss */
 nav .navbar-nav {
   border-bottom: 1.9px solid #263449;
 }
-/* line 67, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 nav .nav-item {
   max-width: 128px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
-/* line 71, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 nav .nav-item:last-child {
   padding-right: 0;
 }
-/* line 74, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 nav .nav-item .nav-link {
   font-size: 14px;
   font-weight: 600;
@@ -205,7 +213,7 @@ nav .nav-item .nav-link {
   text-transform: uppercase;
 }
 
-/* line 87, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .hero:before {
   content: '';
   position: absolute;
@@ -218,7 +226,7 @@ nav .nav-item .nav-link {
   background-size: contain;
   z-index: -1;
 }
-/* line 99, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .hero:after {
   content: '';
   position: absolute;
@@ -231,11 +239,11 @@ nav .nav-item .nav-link {
   background-size: contain;
   z-index: -1;
 }
-/* line 111, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .hero .plated-beans {
   position: relative;
 }
-/* line 113, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .hero .plated-beans:after {
   content: '';
   position: absolute;
@@ -248,28 +256,28 @@ nav .nav-item .nav-link {
   background-size: contain;
   z-index: -1;
 }
-/* line 126, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .hero .edge-image {
   position: absolute;
   top: 20px;
   right: -200px;
   z-index: -1;
 }
-/* line 132, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .hero .left-edge-image {
   position: absolute;
   left: 0;
 }
-/* line 137, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .hero ul li {
   margin-bottom: 10px;
 }
 
-/* line 142, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .health-nutrition {
   position: relative;
 }
-/* line 144, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .health-nutrition:after {
   content: '';
   position: absolute;
@@ -283,18 +291,18 @@ nav .nav-item .nav-link {
   z-index: -1;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 div.call-to-action {
   background-image: url("../images/cta-background@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .data-label {
   margin-right: 30px;
 }
-/* line 167, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .data-label .data {
   height: 23px;
   width: 23px;
@@ -302,33 +310,33 @@ div.call-to-action {
   margin-right: 10px;
 }
 
-/* line 175, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .supporting-research.blue-blob {
   position: relative;
   background-image: url("../images/blue-blob.svg");
   background-repeat: no-repeat;
   background-size: inherit;
 }
-/* line 181, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .supporting-research ol {
   line-height: 23px;
 }
-/* line 183, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .supporting-research ol li {
   list-style-position: inside;
   margin-bottom: 15px;
 }
 
-/* line 189, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .plant-based {
   position: relative;
 }
-/* line 191, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .plant-based.plant-clip {
   clip-path: inset(0 0 0 0 round 0 300px 0 0);
 }
 
-/* line 195, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .display-image {
   position: absolute;
   margin-top: -420px;
@@ -339,12 +347,12 @@ div.call-to-action {
   background-size: contain;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .facts .fact .fact-caption {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 210, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .facts .fact:after {
   content: '';
   position: absolute;
@@ -354,16 +362,16 @@ div.call-to-action {
   height: 336px;
   background-color: #ACCC02;
 }
-/* line 220, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .facts .fact:last-child:after {
   display: none;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .versatility {
   position: relative;
 }
-/* line 228, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .versatility:before {
   content: '';
   width: 435px;
@@ -377,7 +385,7 @@ div.call-to-action {
   background-size: cover;
 }
 
-/* line 241, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .recipes {
   position: relative;
   background-image: url("../images/orange-blob.svg");
@@ -386,12 +394,12 @@ div.call-to-action {
   background-repeat: no-repeat;
   background-size: inherit;
 }
-/* line 248, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .recipes .recipe-image {
   margin-top: -70px;
   margin-right: -80px;
 }
-/* line 252, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .recipes:before {
   content: '';
   position: absolute;
@@ -402,56 +410,56 @@ div.call-to-action {
   width: 367px;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .pt-80 {
   padding-top: 80px;
 }
 
-/* line 265, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .pt-120 {
   padding-top: 120px;
 }
 
-/* line 268, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .pb-160 {
   padding-bottom: 160px;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 .pr-10 {
   padding-right: 200px;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .pr-12 {
   padding-right: 240px;
 }
 
-/* line 278, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .button-group a {
   margin-right: 20px;
 }
-/* line 280, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .button-group a:last-child {
   margin-right: 0;
 }
 
-/* line 285, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .citations {
   font-size: 12px;
   line-height: 14px;
   background-color: white;
 }
-/* line 289, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .citations li {
   margin-bottom: 10px;
 }
 
-/* line 293, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .footer-logo {
   position: relative;
 }
-/* line 295, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .footer-logo:before, .footer-logo:after {
   content: '';
   position: absolute;
@@ -461,40 +469,41 @@ div.call-to-action {
   transform: translateY(-50%);
   width: 60%;
 }
-/* line 304, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
 .footer-logo:before {
   left: -25%;
 }
-/* line 307, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 .footer-logo:after {
   right: -25%;
 }
 
-@media only screen and (min-width: 2000px) {
-  /* line 313, ../sass/style.scss */
+@media only screen and (min-width: 1441px) {
+  /* line 318, ../sass/style.scss */
   .recipes {
-    background-position-y: -1256px;
-    background-size: cover;
+    background-position-y: -300px;
+    background-position-x: 0;
+    background-size: 120%;
   }
-  /* line 316, ../sass/style.scss */
+  /* line 322, ../sass/style.scss */
   .recipes:before {
-    width: 40%;
+    display: none;
   }
 
-  /* line 321, ../sass/style.scss */
+  /* line 327, ../sass/style.scss */
   .supporting-research.blue-blob {
     background-size: cover;
   }
 
-  /* line 325, ../sass/style.scss */
+  /* line 331, ../sass/style.scss */
   .footer {
     padding-top: 120px;
   }
-  /* line 327, ../sass/style.scss */
+  /* line 333, ../sass/style.scss */
   .footer .footer-logo {
     position: relative;
   }
-  /* line 329, ../sass/style.scss */
+  /* line 335, ../sass/style.scss */
   .footer .footer-logo:before, .footer .footer-logo:after {
     content: '';
     position: absolute;
@@ -504,37 +513,43 @@ div.call-to-action {
     transform: translateY(-50%);
     width: 100%;
   }
-  /* line 338, ../sass/style.scss */
+  /* line 344, ../sass/style.scss */
   .footer .footer-logo:before {
     left: -75%;
   }
-  /* line 341, ../sass/style.scss */
+  /* line 347, ../sass/style.scss */
   .footer .footer-logo:after {
     right: -75%;
   }
 }
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* line 355, ../sass/style.scss */
+  .recipe:before {
+    display: none;
+  }
+}
 @media only screen and (max-width: 1024px) {
-  /* line 360, ../sass/style.scss */
+  /* line 373, ../sass/style.scss */
   .hero .plated-beans {
     position: relative;
   }
-  /* line 362, ../sass/style.scss */
+  /* line 375, ../sass/style.scss */
   .hero .plated-beans .container {
     padding-top: 0 !important;
   }
-  /* line 364, ../sass/style.scss */
+  /* line 377, ../sass/style.scss */
   .hero .plated-beans .container .row {
     padding-top: 0 !important;
   }
-  /* line 366, ../sass/style.scss */
+  /* line 379, ../sass/style.scss */
   .hero .plated-beans .container .row .col-md-6 {
     padding: 0 !important;
   }
-  /* line 369, ../sass/style.scss */
+  /* line 382, ../sass/style.scss */
   .hero .plated-beans .container .row .col-lg-6.offset-lg-5 {
     padding-top: 30px;
   }
-  /* line 374, ../sass/style.scss */
+  /* line 387, ../sass/style.scss */
   .hero .plated-beans:after {
     bottom: -20px;
     left: -15px;
@@ -542,120 +557,120 @@ div.call-to-action {
     width: 550px;
   }
 
-  /* line 382, ../sass/style.scss */
+  /* line 395, ../sass/style.scss */
   .health-nutrition {
     position: relative;
   }
-  /* line 384, ../sass/style.scss */
+  /* line 397, ../sass/style.scss */
   .health-nutrition .container {
     padding-bottom: 0 !important;
   }
-  /* line 394, ../sass/style.scss */
+  /* line 407, ../sass/style.scss */
   .health-nutrition p.consumers {
     margin-bottom: 20px !important;
   }
 
-  /* line 398, ../sass/style.scss */
+  /* line 411, ../sass/style.scss */
   .plant-based {
     position: relative;
   }
-  /* line 400, ../sass/style.scss */
+  /* line 413, ../sass/style.scss */
   .plant-based.plant-clip {
     clip-path: inset(0 0 0 0 round 0 128px 0 0);
   }
-  /* line 403, ../sass/style.scss */
+  /* line 416, ../sass/style.scss */
   .plant-based .plant-based-slogan {
     padding-top: 10px !important;
     padding-bottom: 40px !important;
   }
 
-  /* line 408, ../sass/style.scss */
+  /* line 421, ../sass/style.scss */
   .display-image {
     margin-top: -200px;
     height: 300px;
     width: 350px;
   }
 
-  /* line 414, ../sass/style.scss */
+  /* line 427, ../sass/style.scss */
   .versatility .versatility-slogan {
     padding-top: 40px;
   }
-  /* line 417, ../sass/style.scss */
+  /* line 430, ../sass/style.scss */
   .versatility:before {
     width: 360px;
   }
-  /* line 424, ../sass/style.scss */
+  /* line 437, ../sass/style.scss */
   .versatility p.consumer {
     margin-bottom: 20px !important;
   }
-  /* line 427, ../sass/style.scss */
+  /* line 440, ../sass/style.scss */
   .versatility img.versatility-graph {
     height: 400px;
   }
 
-  /* line 431, ../sass/style.scss */
+  /* line 444, ../sass/style.scss */
   .fun-facts {
     padding-top: 0 !important;
   }
-  /* line 434, ../sass/style.scss */
+  /* line 447, ../sass/style.scss */
   .fun-facts .facts .fact {
     margin-bottom: 20px;
   }
-  /* line 436, ../sass/style.scss */
+  /* line 449, ../sass/style.scss */
   .fun-facts .facts .fact .fact-caption {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 440, ../sass/style.scss */
+  /* line 453, ../sass/style.scss */
   .fun-facts .facts .fact:after {
     display: none;
   }
 
-  /* line 446, ../sass/style.scss */
+  /* line 459, ../sass/style.scss */
   .recipes {
     background-position-y: -420px;
   }
-  /* line 450, ../sass/style.scss */
+  /* line 463, ../sass/style.scss */
   .recipes .container .row .col-md-9 {
     z-index: 2;
   }
-  /* line 453, ../sass/style.scss */
+  /* line 466, ../sass/style.scss */
   .recipes .container .row .col-md-8 {
     position: absolute;
     top: -40px;
     right: -200px;
     z-index: 1;
   }
-  /* line 461, ../sass/style.scss */
+  /* line 474, ../sass/style.scss */
   .recipes .recipe-image {
     margin-top: -20px;
     margin-right: 0px;
     width: 700px;
   }
-  /* line 466, ../sass/style.scss */
+  /* line 479, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 470, ../sass/style.scss */
+  /* line 483, ../sass/style.scss */
   .infographics-facts {
     position: relative;
   }
-  /* line 472, ../sass/style.scss */
+  /* line 485, ../sass/style.scss */
   .infographics-facts .container {
     padding-top: 0 !important;
   }
-  /* line 475, ../sass/style.scss */
+  /* line 488, ../sass/style.scss */
   .infographics-facts .container .row div:nth-child(1) {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 480, ../sass/style.scss */
+  /* line 493, ../sass/style.scss */
   .infographics-facts .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 483, ../sass/style.scss */
+  /* line 496, ../sass/style.scss */
   .infographics-facts .container .row .col-md-7 {
     position: absolute;
     top: 10%;
@@ -663,76 +678,76 @@ div.call-to-action {
     z-index: 1;
   }
 
-  /* line 492, ../sass/style.scss */
+  /* line 505, ../sass/style.scss */
   .supporting-research {
     padding-bottom: 0 !important;
   }
-  /* line 496, ../sass/style.scss */
+  /* line 509, ../sass/style.scss */
   .supporting-research .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 499, ../sass/style.scss */
+  /* line 512, ../sass/style.scss */
   .supporting-research .container .row .col-md-7 {
     position: absolute;
     top: 10%;
     right: -70px;
     z-index: 1;
   }
-  /* line 507, ../sass/style.scss */
+  /* line 520, ../sass/style.scss */
   .supporting-research h2 {
     margin-top: 60px;
   }
-  /* line 510, ../sass/style.scss */
+  /* line 523, ../sass/style.scss */
   .supporting-research .supporting-research-slogan {
     padding-top: 20px !important;
   }
 
-  /* line 515, ../sass/style.scss */
+  /* line 528, ../sass/style.scss */
   .sub-footer .citations {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 
-  /* line 520, ../sass/style.scss */
+  /* line 533, ../sass/style.scss */
   .footer-logo {
     position: relative;
   }
-  /* line 522, ../sass/style.scss */
+  /* line 535, ../sass/style.scss */
   .footer-logo:before, .footer-logo:after {
     width: 50%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 539, ../sass/style.scss */
+  /* line 542, ../sass/style.scss */
   .hero:before {
     top: 0px;
     right: 0;
     height: 700px;
     width: 400px;
   }
-  /* line 545, ../sass/style.scss */
+  /* line 548, ../sass/style.scss */
   .hero:after {
     right: -300px;
     height: 600px;
     width: 800px;
   }
-  /* line 550, ../sass/style.scss */
+  /* line 553, ../sass/style.scss */
   .hero .plated-beans {
     position: relative;
   }
-  /* line 552, ../sass/style.scss */
+  /* line 555, ../sass/style.scss */
   .hero .plated-beans .container {
     padding-top: 0 !important;
   }
-  /* line 554, ../sass/style.scss */
+  /* line 557, ../sass/style.scss */
   .hero .plated-beans .container .row {
     padding-top: 0 !important;
   }
-  /* line 556, ../sass/style.scss */
+  /* line 559, ../sass/style.scss */
   .hero .plated-beans .container .row .col-md-6 {
     padding: 0 !important;
   }
-  /* line 561, ../sass/style.scss */
+  /* line 564, ../sass/style.scss */
   .hero .plated-beans:after {
     bottom: -20px;
     left: -15px;
@@ -740,15 +755,15 @@ div.call-to-action {
     width: 350px;
   }
 
-  /* line 569, ../sass/style.scss */
+  /* line 572, ../sass/style.scss */
   .health-nutrition {
     position: relative;
   }
-  /* line 571, ../sass/style.scss */
+  /* line 574, ../sass/style.scss */
   .health-nutrition .container {
     padding-bottom: 0 !important;
   }
-  /* line 574, ../sass/style.scss */
+  /* line 577, ../sass/style.scss */
   .health-nutrition:after {
     content: '';
     top: -100px;
@@ -756,34 +771,34 @@ div.call-to-action {
     height: 720px;
     width: 360px;
   }
-  /* line 581, ../sass/style.scss */
+  /* line 584, ../sass/style.scss */
   .health-nutrition p.consumers {
     margin-bottom: 20px !important;
   }
-  /* line 584, ../sass/style.scss */
+  /* line 587, ../sass/style.scss */
   .health-nutrition .health-nutrition-graph {
     height: auto;
     width: 80%;
   }
 
-  /* line 589, ../sass/style.scss */
+  /* line 592, ../sass/style.scss */
   .plant-based {
     position: relative;
   }
-  /* line 591, ../sass/style.scss */
+  /* line 594, ../sass/style.scss */
   .plant-based.plant-clip {
     clip-path: inset(0 0 0 0 round 0 128px 0 0);
   }
-  /* line 594, ../sass/style.scss */
+  /* line 597, ../sass/style.scss */
   .plant-based .plant-based-slogan {
     padding-top: 10px !important;
     padding-bottom: 40px !important;
   }
-  /* line 598, ../sass/style.scss */
+  /* line 601, ../sass/style.scss */
   .plant-based p.title.pt-120 {
     padding-top: 40px !important;
   }
-  /* line 601, ../sass/style.scss */
+  /* line 604, ../sass/style.scss */
   .plant-based .plant-based-graph {
     padding-top: 20px;
     width: 80%;
@@ -791,16 +806,16 @@ div.call-to-action {
     margin-left: 0 !important;
   }
 
-  /* line 608, ../sass/style.scss */
+  /* line 611, ../sass/style.scss */
   .display-image {
     display: none;
   }
 
-  /* line 612, ../sass/style.scss */
+  /* line 615, ../sass/style.scss */
   .versatility .versatility-slogan {
     padding-top: 40px;
   }
-  /* line 615, ../sass/style.scss */
+  /* line 618, ../sass/style.scss */
   .versatility:before {
     width: 256px;
     height: 1100px;
@@ -808,74 +823,74 @@ div.call-to-action {
     top: 0;
     right: 0;
   }
-  /* line 622, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   .versatility p.consumer {
     margin-bottom: 20px !important;
   }
-  /* line 625, ../sass/style.scss */
+  /* line 628, ../sass/style.scss */
   .versatility img.versatility-graph {
     height: 300px;
   }
 
-  /* line 629, ../sass/style.scss */
+  /* line 632, ../sass/style.scss */
   .fun-facts {
     padding-top: 0 !important;
   }
-  /* line 632, ../sass/style.scss */
+  /* line 635, ../sass/style.scss */
   .fun-facts .facts .fact {
     margin-bottom: 20px;
   }
-  /* line 634, ../sass/style.scss */
+  /* line 637, ../sass/style.scss */
   .fun-facts .facts .fact .fact-caption {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 638, ../sass/style.scss */
+  /* line 641, ../sass/style.scss */
   .fun-facts .facts .fact:after {
     display: none;
   }
 
-  /* line 647, ../sass/style.scss */
+  /* line 650, ../sass/style.scss */
   .recipes .container .row .col-md-9 {
     z-index: 2;
   }
-  /* line 650, ../sass/style.scss */
+  /* line 653, ../sass/style.scss */
   .recipes .container .row .col-md-8 {
     position: absolute;
     top: -30px;
     right: -200px;
     z-index: 1;
   }
-  /* line 658, ../sass/style.scss */
+  /* line 661, ../sass/style.scss */
   .recipes .recipe-image {
     margin-top: -20px;
     margin-right: 0px;
     width: 700px;
   }
-  /* line 663, ../sass/style.scss */
+  /* line 666, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 667, ../sass/style.scss */
+  /* line 670, ../sass/style.scss */
   .infographics-facts {
     position: relative;
   }
-  /* line 669, ../sass/style.scss */
+  /* line 672, ../sass/style.scss */
   .infographics-facts .container {
     padding-top: 0 !important;
   }
-  /* line 672, ../sass/style.scss */
+  /* line 675, ../sass/style.scss */
   .infographics-facts .container .row div:nth-child(1) {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 677, ../sass/style.scss */
+  /* line 680, ../sass/style.scss */
   .infographics-facts .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 680, ../sass/style.scss */
+  /* line 683, ../sass/style.scss */
   .infographics-facts .container .row .col-md-7 {
     position: absolute;
     top: 10%;
@@ -883,176 +898,172 @@ div.call-to-action {
     z-index: 1;
   }
 
-  /* line 689, ../sass/style.scss */
+  /* line 692, ../sass/style.scss */
   .supporting-research {
     padding-bottom: 0 !important;
   }
-  /* line 693, ../sass/style.scss */
+  /* line 696, ../sass/style.scss */
   .supporting-research .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 696, ../sass/style.scss */
+  /* line 699, ../sass/style.scss */
   .supporting-research .container .row .col-md-7 {
     position: absolute;
     top: 10%;
     right: -200px;
     z-index: 1;
   }
-  /* line 704, ../sass/style.scss */
+  /* line 707, ../sass/style.scss */
   .supporting-research h2 {
     margin-top: 60px;
   }
-  /* line 707, ../sass/style.scss */
+  /* line 710, ../sass/style.scss */
   .supporting-research .supporting-research-slogan {
     padding-top: 20px !important;
   }
 
-  /* line 712, ../sass/style.scss */
+  /* line 715, ../sass/style.scss */
   .sub-footer .citations {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 
-  /* line 717, ../sass/style.scss */
+  /* line 720, ../sass/style.scss */
   .footer-logo {
     position: relative;
   }
-  /* line 719, ../sass/style.scss */
+  /* line 722, ../sass/style.scss */
   .footer-logo:before, .footer-logo:after {
     width: 50%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 726, ../sass/style.scss */
+  /* line 729, ../sass/style.scss */
   .button-group a {
     width: 200px;
     margin-bottom: 10px;
   }
-  /* line 729, ../sass/style.scss */
+  /* line 732, ../sass/style.scss */
   .button-group a:last-child {
     margin-right: 0;
     margin-bottom: 0;
   }
 
-  /* line 736, ../sass/style.scss */
+  /* line 739, ../sass/style.scss */
   .hero:before {
-    top: -150px;
+    top: -30px;
     right: 0;
-    height: 500px;
-    width: 300px;
+    height: 400px;
+    width: 200px;
   }
-  /* line 742, ../sass/style.scss */
+  /* line 745, ../sass/style.scss */
   .hero:after {
     display: none;
   }
-  /* line 745, ../sass/style.scss */
+  /* line 748, ../sass/style.scss */
   .hero .plated-beans {
     position: relative;
   }
-  /* line 747, ../sass/style.scss */
+  /* line 750, ../sass/style.scss */
   .hero .plated-beans .container {
     padding-top: 0 !important;
   }
-  /* line 749, ../sass/style.scss */
+  /* line 752, ../sass/style.scss */
   .hero .plated-beans .container .row {
     padding-top: 0 !important;
   }
-  /* line 751, ../sass/style.scss */
+  /* line 754, ../sass/style.scss */
   .hero .plated-beans .container .row .col-md-6 {
     padding: 0 !important;
   }
-  /* line 756, ../sass/style.scss */
+  /* line 759, ../sass/style.scss */
   .hero .plated-beans:after {
     display: none;
   }
 
-  /* line 761, ../sass/style.scss */
+  /* line 764, ../sass/style.scss */
   .health-nutrition {
     position: relative;
   }
-  /* line 763, ../sass/style.scss */
+  /* line 766, ../sass/style.scss */
   .health-nutrition .container {
     padding-bottom: 0 !important;
   }
-  /* line 766, ../sass/style.scss */
+  /* line 769, ../sass/style.scss */
   .health-nutrition:after {
-    content: '';
-    top: -100px;
-    right: 0;
-    height: 1178px;
-    width: 781px;
+    display: none;
   }
-  /* line 773, ../sass/style.scss */
+  /* line 772, ../sass/style.scss */
   .health-nutrition p.fact-caption.pr-12 {
     padding-right: 0 !important;
   }
-  /* line 776, ../sass/style.scss */
+  /* line 775, ../sass/style.scss */
   .health-nutrition .health-nutrition-graph {
     width: 100%;
     height: auto;
   }
-  /* line 780, ../sass/style.scss */
+  /* line 779, ../sass/style.scss */
   .health-nutrition .health-nutrition-slogan {
     padding-top: 40px !important;
     padding-bottom: 0px !important;
   }
 
-  /* line 785, ../sass/style.scss */
+  /* line 784, ../sass/style.scss */
   .plant-based {
     position: relative;
   }
-  /* line 787, ../sass/style.scss */
+  /* line 786, ../sass/style.scss */
   .plant-based.plant-clip {
     clip-path: inset(0 0 0 0 round 0 128px 0 0);
   }
-  /* line 790, ../sass/style.scss */
+  /* line 789, ../sass/style.scss */
   .plant-based .plant-based-slogan {
     padding-top: 10px !important;
     padding-bottom: 40px !important;
   }
-  /* line 794, ../sass/style.scss */
+  /* line 793, ../sass/style.scss */
   .plant-based p.title.pt-120 {
     padding-top: 20px !important;
   }
-  /* line 797, ../sass/style.scss */
+  /* line 796, ../sass/style.scss */
   .plant-based .plant-based-graph {
     width: 100%;
     height: auto;
   }
 
-  /* line 802, ../sass/style.scss */
+  /* line 801, ../sass/style.scss */
   .display-image {
     display: none;
   }
 
-  /* line 805, ../sass/style.scss */
+  /* line 804, ../sass/style.scss */
   .versatility {
     padding-top: 0 !important;
   }
-  /* line 807, ../sass/style.scss */
+  /* line 806, ../sass/style.scss */
   .versatility .versatility-slogan {
     padding-top: 40px;
   }
-  /* line 810, ../sass/style.scss */
+  /* line 809, ../sass/style.scss */
   .versatility:before {
     display: none;
   }
-  /* line 813, ../sass/style.scss */
+  /* line 812, ../sass/style.scss */
   .versatility img.versatility-graph {
     height: auto;
     width: 100%;
   }
 
-  /* line 819, ../sass/style.scss */
+  /* line 818, ../sass/style.scss */
   .facts .fact {
     margin-bottom: 20px;
   }
-  /* line 821, ../sass/style.scss */
+  /* line 820, ../sass/style.scss */
   .facts .fact .fact-caption {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 825, ../sass/style.scss */
+  /* line 824, ../sass/style.scss */
   .facts .fact:after {
     display: none;
   }
@@ -1062,60 +1073,77 @@ div.call-to-action {
     position: relative;
     background-image: url("../images/orange-blob.svg");
     background-position-x: -30px;
-    background-position-y: -340px;
+    background-position-y: -150px;
     background-repeat: no-repeat;
     background-size: inherit;
   }
-  /* line 837, ../sass/style.scss */
-  .recipes .recipe-image {
-    margin-top: -100px;
-    margin-right: 0px;
+  /* line 839, ../sass/style.scss */
+  .recipes .container .row .col-md-9 {
+    padding-bottom: 40px !important;
   }
-  /* line 841, ../sass/style.scss */
+  /* line 842, ../sass/style.scss */
+  .recipes .container .row .col-md-8 {
+    position: relative !important;
+    top: 0;
+    right: 0;
+  }
+  /* line 846, ../sass/style.scss */
+  .recipes .container .row .col-md-8 .recipe-image {
+    margin-top: auto;
+    margin-right: auto;
+  }
+  /* line 853, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 846, ../sass/style.scss */
+  /* line 858, ../sass/style.scss */
   .infographics-facts .container {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
-  /* line 850, ../sass/style.scss */
+  /* line 861, ../sass/style.scss */
+  .infographics-facts .container .row {
+    padding-bottom: 0 !important;
+  }
+  /* line 866, ../sass/style.scss */
   .infographics-facts .row div:nth-child(1) {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
 
-  /* line 857, ../sass/style.scss */
+  /* line 873, ../sass/style.scss */
   .supporting-research {
+    background-size: cover !important;
+    background-position-y: -35px;
     padding-bottom: 0 !important;
   }
-  /* line 859, ../sass/style.scss */
+  /* line 877, ../sass/style.scss */
   .supporting-research h2 {
     margin-top: 60px;
   }
-  /* line 862, ../sass/style.scss */
+  /* line 880, ../sass/style.scss */
   .supporting-research .supporting-research-slogan {
     padding-top: 20px !important;
   }
 
-  /* line 866, ../sass/style.scss */
+  /* line 884, ../sass/style.scss */
   .sub-footer {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
-  /* line 869, ../sass/style.scss */
+  /* line 887, ../sass/style.scss */
   .sub-footer .citations {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
   }
 
-  /* line 874, ../sass/style.scss */
+  /* line 892, ../sass/style.scss */
   .footer-logo {
     position: relative;
   }
-  /* line 876, ../sass/style.scss */
+  /* line 894, ../sass/style.scss */
   .footer-logo:before, .footer-logo:after {
     width: 35%;
   }

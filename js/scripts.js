@@ -164,3 +164,23 @@
 // 	ctx.drawImage(img, 0, 0)
 // }
 // img.src = "../images/frequency-beans.svg"
+///////////////// fixed menu on scroll for desktop
+// end if
+
+$(window).ready(function () {
+	if ($(window).width() > 992) {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 40) {
+				$(".navbar").addClass("fixed-top")
+
+				$("body").css("padding-top", $(".navbar").outerHeight() + "px")
+				$(".main-logo").addClass("small-logo")
+			} else {
+				$(".navbar").removeClass("fixed-top")
+				// remove padding top from body
+				$("body").css("padding-top", "0")
+				$(".main-logo").removeClass("small-logo")
+			}
+		})
+	}
+})
