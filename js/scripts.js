@@ -171,12 +171,15 @@ $(window).ready(function () {
 	if ($(window).width() > 992) {
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 40) {
-				$(".navbar").addClass("fixed-top")
+				$(".navbar").addClass("fixed-top bg-white")
+				$(".navbar-nav").css("border-bottom", "none")
 
 				$("body").css("padding-top", $(".navbar").outerHeight() + "px")
 				$(".main-logo").addClass("small-logo")
 			} else {
 				$(".navbar").removeClass("fixed-top")
+				$(".navbar").removeClass("fixed-top bg-white")
+				$(".navbar-nav").css("border-bottom", "1.9px solid #263449")
 				// remove padding top from body
 				$("body").css("padding-top", "0")
 				$(".main-logo").removeClass("small-logo")

@@ -10,36 +10,45 @@ html {
 }
 
 /* line 12, ../sass/style.scss */
+[id]::before {
+  content: '';
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+  visibility: hidden;
+}
+
+/* line 19, ../sass/style.scss */
 body {
   position: relative;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .bg-blue {
   background-color: #263449;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .bg-orange {
   background-color: #F18345;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .bg-green {
   background-color: #ACCC02;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .text-color-orange {
   color: #F18345;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .text-color-green {
   color: #ACCC02;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .text-color-blue {
   color: #263449;
 }
@@ -142,13 +151,13 @@ p.title {
   letter-spacing: normal;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .btn {
   border-radius: 8px;
   padding: .375rem 2.5rem;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .btn-primary {
   background-color: #ACCC02;
   color: white;
@@ -157,51 +166,51 @@ p.title {
   font: 'Montserrat', sans-serif;
   font-size: 16px;
 }
-/* line 45, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .btn-primary:hover {
   background-color: #ACCC02;
   border: #ACCC02;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 canvas {
   width: 100%;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .clip-path {
   position: absolute;
   top: 0;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 nav .navbar-toggler {
   color: #fff !important;
   border: none;
 }
-/* line 63, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 nav .main-logo {
   transition: all 300ms ease-in-out;
 }
-/* line 66, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 nav .small-logo {
   height: 70px !important;
 }
-/* line 69, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 nav .navbar-nav {
   border-bottom: 1.9px solid #263449;
 }
-/* line 72, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 nav .nav-item {
   max-width: 128px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
-/* line 76, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 nav .nav-item:last-child {
   padding-right: 0;
 }
-/* line 79, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 nav .nav-item .nav-link {
   font-size: 14px;
   font-weight: 600;
@@ -213,7 +222,7 @@ nav .nav-item .nav-link {
   text-transform: uppercase;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .hero:before {
   content: '';
   position: absolute;
@@ -226,7 +235,7 @@ nav .nav-item .nav-link {
   background-size: contain;
   z-index: -1;
 }
-/* line 104, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .hero:after {
   content: '';
   position: absolute;
@@ -239,11 +248,11 @@ nav .nav-item .nav-link {
   background-size: contain;
   z-index: -1;
 }
-/* line 116, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .hero .plated-beans {
   position: relative;
 }
-/* line 118, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .hero .plated-beans:after {
   content: '';
   position: absolute;
@@ -256,28 +265,28 @@ nav .nav-item .nav-link {
   background-size: contain;
   z-index: -1;
 }
-/* line 131, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .hero .edge-image {
   position: absolute;
   top: 20px;
   right: -200px;
   z-index: -1;
 }
-/* line 137, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .hero .left-edge-image {
   position: absolute;
   left: 0;
 }
-/* line 142, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .hero ul li {
   margin-bottom: 10px;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .health-nutrition {
   position: relative;
 }
-/* line 149, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .health-nutrition:after {
   content: '';
   position: absolute;
@@ -291,18 +300,18 @@ nav .nav-item .nav-link {
   z-index: -1;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 div.call-to-action {
   background-image: url("../images/cta-background@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .data-label {
   margin-right: 30px;
 }
-/* line 172, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .data-label .data {
   height: 23px;
   width: 23px;
@@ -310,33 +319,33 @@ div.call-to-action {
   margin-right: 10px;
 }
 
-/* line 180, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .supporting-research.blue-blob {
   position: relative;
   background-image: url("../images/blue-blob.svg");
   background-repeat: no-repeat;
   background-size: inherit;
 }
-/* line 186, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .supporting-research ol {
   line-height: 23px;
 }
-/* line 188, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .supporting-research ol li {
   list-style-position: inside;
   margin-bottom: 15px;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .plant-based {
   position: relative;
 }
-/* line 196, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .plant-based.plant-clip {
   clip-path: inset(0 0 0 0 round 0 300px 0 0);
 }
 
-/* line 200, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 .display-image {
   position: absolute;
   margin-top: -420px;
@@ -347,12 +356,12 @@ div.call-to-action {
   background-size: contain;
 }
 
-/* line 211, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .facts .fact .fact-caption {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 215, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .facts .fact:after {
   content: '';
   position: absolute;
@@ -362,16 +371,16 @@ div.call-to-action {
   height: 336px;
   background-color: #ACCC02;
 }
-/* line 225, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .facts .fact:last-child:after {
   display: none;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .versatility {
   position: relative;
 }
-/* line 233, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .versatility:before {
   content: '';
   width: 435px;
@@ -385,7 +394,7 @@ div.call-to-action {
   background-size: cover;
 }
 
-/* line 246, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .recipes {
   position: relative;
   background-image: url("../images/orange-blob.svg");
@@ -394,12 +403,12 @@ div.call-to-action {
   background-repeat: no-repeat;
   background-size: inherit;
 }
-/* line 253, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .recipes .recipe-image {
   margin-top: -70px;
   margin-right: -80px;
 }
-/* line 257, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .recipes:before {
   content: '';
   position: absolute;
@@ -410,56 +419,56 @@ div.call-to-action {
   width: 367px;
 }
 
-/* line 267, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .pt-80 {
   padding-top: 80px;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .pt-120 {
   padding-top: 120px;
 }
 
-/* line 273, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 .pb-160 {
   padding-bottom: 160px;
 }
 
-/* line 276, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .pr-10 {
   padding-right: 200px;
 }
 
-/* line 279, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 .pr-12 {
   padding-right: 240px;
 }
 
-/* line 283, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .button-group a {
   margin-right: 20px;
 }
-/* line 285, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .button-group a:last-child {
   margin-right: 0;
 }
 
-/* line 290, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .citations {
   font-size: 12px;
   line-height: 14px;
   background-color: white;
 }
-/* line 294, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .citations li {
   margin-bottom: 10px;
 }
 
-/* line 298, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .footer-logo {
   position: relative;
 }
-/* line 300, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .footer-logo:before, .footer-logo:after {
   content: '';
   position: absolute;
@@ -469,41 +478,41 @@ div.call-to-action {
   transform: translateY(-50%);
   width: 60%;
 }
-/* line 309, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .footer-logo:before {
   left: -25%;
 }
-/* line 312, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .footer-logo:after {
   right: -25%;
 }
 
 @media only screen and (min-width: 1441px) {
-  /* line 318, ../sass/style.scss */
+  /* line 325, ../sass/style.scss */
   .recipes {
     background-position-y: -300px;
     background-position-x: 0;
     background-size: 120%;
   }
-  /* line 322, ../sass/style.scss */
+  /* line 329, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 327, ../sass/style.scss */
+  /* line 334, ../sass/style.scss */
   .supporting-research.blue-blob {
     background-size: cover;
   }
 
-  /* line 331, ../sass/style.scss */
+  /* line 338, ../sass/style.scss */
   .footer {
     padding-top: 120px;
   }
-  /* line 333, ../sass/style.scss */
+  /* line 340, ../sass/style.scss */
   .footer .footer-logo {
     position: relative;
   }
-  /* line 335, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   .footer .footer-logo:before, .footer .footer-logo:after {
     content: '';
     position: absolute;
@@ -513,43 +522,43 @@ div.call-to-action {
     transform: translateY(-50%);
     width: 100%;
   }
-  /* line 344, ../sass/style.scss */
+  /* line 351, ../sass/style.scss */
   .footer .footer-logo:before {
     left: -75%;
   }
-  /* line 347, ../sass/style.scss */
+  /* line 354, ../sass/style.scss */
   .footer .footer-logo:after {
     right: -75%;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  /* line 355, ../sass/style.scss */
+  /* line 362, ../sass/style.scss */
   .recipe:before {
     display: none;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 373, ../sass/style.scss */
+  /* line 380, ../sass/style.scss */
   .hero .plated-beans {
     position: relative;
   }
-  /* line 375, ../sass/style.scss */
+  /* line 382, ../sass/style.scss */
   .hero .plated-beans .container {
     padding-top: 0 !important;
   }
-  /* line 377, ../sass/style.scss */
+  /* line 384, ../sass/style.scss */
   .hero .plated-beans .container .row {
     padding-top: 0 !important;
   }
-  /* line 379, ../sass/style.scss */
+  /* line 386, ../sass/style.scss */
   .hero .plated-beans .container .row .col-md-6 {
     padding: 0 !important;
   }
-  /* line 382, ../sass/style.scss */
+  /* line 389, ../sass/style.scss */
   .hero .plated-beans .container .row .col-lg-6.offset-lg-5 {
     padding-top: 30px;
   }
-  /* line 387, ../sass/style.scss */
+  /* line 394, ../sass/style.scss */
   .hero .plated-beans:after {
     bottom: -20px;
     left: -15px;
@@ -557,120 +566,120 @@ div.call-to-action {
     width: 550px;
   }
 
-  /* line 395, ../sass/style.scss */
+  /* line 402, ../sass/style.scss */
   .health-nutrition {
     position: relative;
   }
-  /* line 397, ../sass/style.scss */
+  /* line 404, ../sass/style.scss */
   .health-nutrition .container {
     padding-bottom: 0 !important;
   }
-  /* line 407, ../sass/style.scss */
+  /* line 414, ../sass/style.scss */
   .health-nutrition p.consumers {
     margin-bottom: 20px !important;
   }
 
-  /* line 411, ../sass/style.scss */
+  /* line 418, ../sass/style.scss */
   .plant-based {
     position: relative;
   }
-  /* line 413, ../sass/style.scss */
+  /* line 420, ../sass/style.scss */
   .plant-based.plant-clip {
     clip-path: inset(0 0 0 0 round 0 128px 0 0);
   }
-  /* line 416, ../sass/style.scss */
+  /* line 423, ../sass/style.scss */
   .plant-based .plant-based-slogan {
     padding-top: 10px !important;
     padding-bottom: 40px !important;
   }
 
-  /* line 421, ../sass/style.scss */
+  /* line 428, ../sass/style.scss */
   .display-image {
     margin-top: -200px;
     height: 300px;
     width: 350px;
   }
 
-  /* line 427, ../sass/style.scss */
+  /* line 434, ../sass/style.scss */
   .versatility .versatility-slogan {
     padding-top: 40px;
   }
-  /* line 430, ../sass/style.scss */
+  /* line 437, ../sass/style.scss */
   .versatility:before {
     width: 360px;
   }
-  /* line 437, ../sass/style.scss */
+  /* line 444, ../sass/style.scss */
   .versatility p.consumer {
     margin-bottom: 20px !important;
   }
-  /* line 440, ../sass/style.scss */
+  /* line 447, ../sass/style.scss */
   .versatility img.versatility-graph {
     height: 400px;
   }
 
-  /* line 444, ../sass/style.scss */
+  /* line 451, ../sass/style.scss */
   .fun-facts {
     padding-top: 0 !important;
   }
-  /* line 447, ../sass/style.scss */
+  /* line 454, ../sass/style.scss */
   .fun-facts .facts .fact {
     margin-bottom: 20px;
   }
-  /* line 449, ../sass/style.scss */
+  /* line 456, ../sass/style.scss */
   .fun-facts .facts .fact .fact-caption {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 453, ../sass/style.scss */
+  /* line 460, ../sass/style.scss */
   .fun-facts .facts .fact:after {
     display: none;
   }
 
-  /* line 459, ../sass/style.scss */
+  /* line 466, ../sass/style.scss */
   .recipes {
     background-position-y: -420px;
   }
-  /* line 463, ../sass/style.scss */
+  /* line 470, ../sass/style.scss */
   .recipes .container .row .col-md-9 {
     z-index: 2;
   }
-  /* line 466, ../sass/style.scss */
+  /* line 473, ../sass/style.scss */
   .recipes .container .row .col-md-8 {
     position: absolute;
     top: -40px;
     right: -200px;
     z-index: 1;
   }
-  /* line 474, ../sass/style.scss */
+  /* line 481, ../sass/style.scss */
   .recipes .recipe-image {
     margin-top: -20px;
     margin-right: 0px;
     width: 700px;
   }
-  /* line 479, ../sass/style.scss */
+  /* line 486, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 483, ../sass/style.scss */
+  /* line 490, ../sass/style.scss */
   .infographics-facts {
     position: relative;
   }
-  /* line 485, ../sass/style.scss */
+  /* line 492, ../sass/style.scss */
   .infographics-facts .container {
     padding-top: 0 !important;
   }
-  /* line 488, ../sass/style.scss */
+  /* line 495, ../sass/style.scss */
   .infographics-facts .container .row div:nth-child(1) {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 493, ../sass/style.scss */
+  /* line 500, ../sass/style.scss */
   .infographics-facts .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 496, ../sass/style.scss */
+  /* line 503, ../sass/style.scss */
   .infographics-facts .container .row .col-md-7 {
     position: absolute;
     top: 10%;
@@ -678,76 +687,76 @@ div.call-to-action {
     z-index: 1;
   }
 
-  /* line 505, ../sass/style.scss */
+  /* line 512, ../sass/style.scss */
   .supporting-research {
     padding-bottom: 0 !important;
   }
-  /* line 509, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   .supporting-research .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 512, ../sass/style.scss */
+  /* line 519, ../sass/style.scss */
   .supporting-research .container .row .col-md-7 {
     position: absolute;
     top: 10%;
     right: -70px;
     z-index: 1;
   }
-  /* line 520, ../sass/style.scss */
+  /* line 527, ../sass/style.scss */
   .supporting-research h2 {
     margin-top: 60px;
   }
-  /* line 523, ../sass/style.scss */
+  /* line 530, ../sass/style.scss */
   .supporting-research .supporting-research-slogan {
     padding-top: 20px !important;
   }
 
-  /* line 528, ../sass/style.scss */
+  /* line 535, ../sass/style.scss */
   .sub-footer .citations {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 
-  /* line 533, ../sass/style.scss */
+  /* line 540, ../sass/style.scss */
   .footer-logo {
     position: relative;
   }
-  /* line 535, ../sass/style.scss */
+  /* line 542, ../sass/style.scss */
   .footer-logo:before, .footer-logo:after {
     width: 50%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 542, ../sass/style.scss */
+  /* line 549, ../sass/style.scss */
   .hero:before {
     top: 0px;
     right: 0;
     height: 700px;
     width: 400px;
   }
-  /* line 548, ../sass/style.scss */
+  /* line 555, ../sass/style.scss */
   .hero:after {
     right: -300px;
     height: 600px;
     width: 800px;
   }
-  /* line 553, ../sass/style.scss */
+  /* line 560, ../sass/style.scss */
   .hero .plated-beans {
     position: relative;
   }
-  /* line 555, ../sass/style.scss */
+  /* line 562, ../sass/style.scss */
   .hero .plated-beans .container {
     padding-top: 0 !important;
   }
-  /* line 557, ../sass/style.scss */
+  /* line 564, ../sass/style.scss */
   .hero .plated-beans .container .row {
     padding-top: 0 !important;
   }
-  /* line 559, ../sass/style.scss */
+  /* line 566, ../sass/style.scss */
   .hero .plated-beans .container .row .col-md-6 {
     padding: 0 !important;
   }
-  /* line 564, ../sass/style.scss */
+  /* line 571, ../sass/style.scss */
   .hero .plated-beans:after {
     bottom: -20px;
     left: -15px;
@@ -755,15 +764,15 @@ div.call-to-action {
     width: 350px;
   }
 
-  /* line 572, ../sass/style.scss */
+  /* line 579, ../sass/style.scss */
   .health-nutrition {
     position: relative;
   }
-  /* line 574, ../sass/style.scss */
+  /* line 581, ../sass/style.scss */
   .health-nutrition .container {
     padding-bottom: 0 !important;
   }
-  /* line 577, ../sass/style.scss */
+  /* line 584, ../sass/style.scss */
   .health-nutrition:after {
     content: '';
     top: -100px;
@@ -771,34 +780,34 @@ div.call-to-action {
     height: 720px;
     width: 360px;
   }
-  /* line 584, ../sass/style.scss */
+  /* line 591, ../sass/style.scss */
   .health-nutrition p.consumers {
     margin-bottom: 20px !important;
   }
-  /* line 587, ../sass/style.scss */
+  /* line 594, ../sass/style.scss */
   .health-nutrition .health-nutrition-graph {
     height: auto;
     width: 80%;
   }
 
-  /* line 592, ../sass/style.scss */
+  /* line 599, ../sass/style.scss */
   .plant-based {
     position: relative;
   }
-  /* line 594, ../sass/style.scss */
+  /* line 601, ../sass/style.scss */
   .plant-based.plant-clip {
     clip-path: inset(0 0 0 0 round 0 128px 0 0);
   }
-  /* line 597, ../sass/style.scss */
+  /* line 604, ../sass/style.scss */
   .plant-based .plant-based-slogan {
     padding-top: 10px !important;
     padding-bottom: 40px !important;
   }
-  /* line 601, ../sass/style.scss */
+  /* line 608, ../sass/style.scss */
   .plant-based p.title.pt-120 {
     padding-top: 40px !important;
   }
-  /* line 604, ../sass/style.scss */
+  /* line 611, ../sass/style.scss */
   .plant-based .plant-based-graph {
     padding-top: 20px;
     width: 80%;
@@ -806,16 +815,16 @@ div.call-to-action {
     margin-left: 0 !important;
   }
 
-  /* line 611, ../sass/style.scss */
+  /* line 618, ../sass/style.scss */
   .display-image {
     display: none;
   }
 
-  /* line 615, ../sass/style.scss */
+  /* line 622, ../sass/style.scss */
   .versatility .versatility-slogan {
     padding-top: 40px;
   }
-  /* line 618, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   .versatility:before {
     width: 256px;
     height: 1100px;
@@ -823,74 +832,74 @@ div.call-to-action {
     top: 0;
     right: 0;
   }
-  /* line 625, ../sass/style.scss */
+  /* line 632, ../sass/style.scss */
   .versatility p.consumer {
     margin-bottom: 20px !important;
   }
-  /* line 628, ../sass/style.scss */
+  /* line 635, ../sass/style.scss */
   .versatility img.versatility-graph {
     height: 300px;
   }
 
-  /* line 632, ../sass/style.scss */
+  /* line 639, ../sass/style.scss */
   .fun-facts {
     padding-top: 0 !important;
   }
-  /* line 635, ../sass/style.scss */
+  /* line 642, ../sass/style.scss */
   .fun-facts .facts .fact {
     margin-bottom: 20px;
   }
-  /* line 637, ../sass/style.scss */
+  /* line 644, ../sass/style.scss */
   .fun-facts .facts .fact .fact-caption {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 641, ../sass/style.scss */
+  /* line 648, ../sass/style.scss */
   .fun-facts .facts .fact:after {
     display: none;
   }
 
-  /* line 650, ../sass/style.scss */
+  /* line 657, ../sass/style.scss */
   .recipes .container .row .col-md-9 {
     z-index: 2;
   }
-  /* line 653, ../sass/style.scss */
+  /* line 660, ../sass/style.scss */
   .recipes .container .row .col-md-8 {
     position: absolute;
     top: -30px;
     right: -200px;
     z-index: 1;
   }
-  /* line 661, ../sass/style.scss */
+  /* line 668, ../sass/style.scss */
   .recipes .recipe-image {
     margin-top: -20px;
     margin-right: 0px;
     width: 700px;
   }
-  /* line 666, ../sass/style.scss */
+  /* line 673, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 670, ../sass/style.scss */
+  /* line 677, ../sass/style.scss */
   .infographics-facts {
     position: relative;
   }
-  /* line 672, ../sass/style.scss */
+  /* line 679, ../sass/style.scss */
   .infographics-facts .container {
     padding-top: 0 !important;
   }
-  /* line 675, ../sass/style.scss */
+  /* line 682, ../sass/style.scss */
   .infographics-facts .container .row div:nth-child(1) {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
-  /* line 680, ../sass/style.scss */
+  /* line 687, ../sass/style.scss */
   .infographics-facts .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 683, ../sass/style.scss */
+  /* line 690, ../sass/style.scss */
   .infographics-facts .container .row .col-md-7 {
     position: absolute;
     top: 10%;
@@ -898,177 +907,177 @@ div.call-to-action {
     z-index: 1;
   }
 
-  /* line 692, ../sass/style.scss */
+  /* line 699, ../sass/style.scss */
   .supporting-research {
     padding-bottom: 0 !important;
   }
-  /* line 696, ../sass/style.scss */
+  /* line 703, ../sass/style.scss */
   .supporting-research .container .row .col-md-8 {
     z-index: 2;
   }
-  /* line 699, ../sass/style.scss */
+  /* line 706, ../sass/style.scss */
   .supporting-research .container .row .col-md-7 {
     position: absolute;
     top: 10%;
     right: -200px;
     z-index: 1;
   }
-  /* line 707, ../sass/style.scss */
+  /* line 714, ../sass/style.scss */
   .supporting-research h2 {
     margin-top: 60px;
   }
-  /* line 710, ../sass/style.scss */
+  /* line 717, ../sass/style.scss */
   .supporting-research .supporting-research-slogan {
     padding-top: 20px !important;
   }
 
-  /* line 715, ../sass/style.scss */
+  /* line 722, ../sass/style.scss */
   .sub-footer .citations {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 
-  /* line 720, ../sass/style.scss */
+  /* line 727, ../sass/style.scss */
   .footer-logo {
     position: relative;
   }
-  /* line 722, ../sass/style.scss */
+  /* line 729, ../sass/style.scss */
   .footer-logo:before, .footer-logo:after {
     width: 50%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 729, ../sass/style.scss */
+  /* line 736, ../sass/style.scss */
   .button-group a {
     width: 200px;
     margin-bottom: 10px;
   }
-  /* line 732, ../sass/style.scss */
+  /* line 739, ../sass/style.scss */
   .button-group a:last-child {
     margin-right: 0;
     margin-bottom: 0;
   }
 
-  /* line 739, ../sass/style.scss */
+  /* line 746, ../sass/style.scss */
   .hero:before {
     top: -30px;
     right: 0;
     height: 400px;
     width: 200px;
   }
-  /* line 745, ../sass/style.scss */
+  /* line 752, ../sass/style.scss */
   .hero:after {
     display: none;
   }
-  /* line 748, ../sass/style.scss */
+  /* line 755, ../sass/style.scss */
   .hero .plated-beans {
     position: relative;
   }
-  /* line 750, ../sass/style.scss */
+  /* line 757, ../sass/style.scss */
   .hero .plated-beans .container {
     padding-top: 0 !important;
   }
-  /* line 752, ../sass/style.scss */
+  /* line 759, ../sass/style.scss */
   .hero .plated-beans .container .row {
     padding-top: 0 !important;
   }
-  /* line 754, ../sass/style.scss */
+  /* line 761, ../sass/style.scss */
   .hero .plated-beans .container .row .col-md-6 {
     padding: 0 !important;
   }
-  /* line 759, ../sass/style.scss */
+  /* line 766, ../sass/style.scss */
   .hero .plated-beans:after {
     display: none;
   }
 
-  /* line 764, ../sass/style.scss */
+  /* line 771, ../sass/style.scss */
   .health-nutrition {
     position: relative;
   }
-  /* line 766, ../sass/style.scss */
+  /* line 773, ../sass/style.scss */
   .health-nutrition .container {
     padding-bottom: 0 !important;
   }
-  /* line 769, ../sass/style.scss */
+  /* line 776, ../sass/style.scss */
   .health-nutrition:after {
     display: none;
   }
-  /* line 772, ../sass/style.scss */
+  /* line 779, ../sass/style.scss */
   .health-nutrition p.fact-caption.pr-12 {
     padding-right: 0 !important;
   }
-  /* line 775, ../sass/style.scss */
+  /* line 782, ../sass/style.scss */
   .health-nutrition .health-nutrition-graph {
     width: 100%;
     height: auto;
   }
-  /* line 779, ../sass/style.scss */
+  /* line 786, ../sass/style.scss */
   .health-nutrition .health-nutrition-slogan {
     padding-top: 40px !important;
     padding-bottom: 0px !important;
   }
 
-  /* line 784, ../sass/style.scss */
+  /* line 791, ../sass/style.scss */
   .plant-based {
     position: relative;
   }
-  /* line 786, ../sass/style.scss */
+  /* line 793, ../sass/style.scss */
   .plant-based.plant-clip {
     clip-path: inset(0 0 0 0 round 0 128px 0 0);
   }
-  /* line 789, ../sass/style.scss */
+  /* line 796, ../sass/style.scss */
   .plant-based .plant-based-slogan {
     padding-top: 10px !important;
     padding-bottom: 40px !important;
   }
-  /* line 793, ../sass/style.scss */
+  /* line 800, ../sass/style.scss */
   .plant-based p.title.pt-120 {
     padding-top: 20px !important;
   }
-  /* line 796, ../sass/style.scss */
+  /* line 803, ../sass/style.scss */
   .plant-based .plant-based-graph {
     width: 100%;
     height: auto;
   }
 
-  /* line 801, ../sass/style.scss */
+  /* line 808, ../sass/style.scss */
   .display-image {
     display: none;
   }
 
-  /* line 804, ../sass/style.scss */
+  /* line 811, ../sass/style.scss */
   .versatility {
     padding-top: 0 !important;
   }
-  /* line 806, ../sass/style.scss */
+  /* line 813, ../sass/style.scss */
   .versatility .versatility-slogan {
     padding-top: 40px;
   }
-  /* line 809, ../sass/style.scss */
+  /* line 816, ../sass/style.scss */
   .versatility:before {
     display: none;
   }
-  /* line 812, ../sass/style.scss */
+  /* line 819, ../sass/style.scss */
   .versatility img.versatility-graph {
     height: auto;
     width: 100%;
   }
 
-  /* line 818, ../sass/style.scss */
+  /* line 825, ../sass/style.scss */
   .facts .fact {
     margin-bottom: 20px;
   }
-  /* line 820, ../sass/style.scss */
+  /* line 827, ../sass/style.scss */
   .facts .fact .fact-caption {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 824, ../sass/style.scss */
+  /* line 831, ../sass/style.scss */
   .facts .fact:after {
     display: none;
   }
 
-  /* line 830, ../sass/style.scss */
+  /* line 837, ../sass/style.scss */
   .recipes {
     position: relative;
     background-image: url("../images/orange-blob.svg");
@@ -1077,73 +1086,73 @@ div.call-to-action {
     background-repeat: no-repeat;
     background-size: inherit;
   }
-  /* line 839, ../sass/style.scss */
+  /* line 846, ../sass/style.scss */
   .recipes .container .row .col-md-9 {
     padding-bottom: 40px !important;
   }
-  /* line 842, ../sass/style.scss */
+  /* line 849, ../sass/style.scss */
   .recipes .container .row .col-md-8 {
     position: relative !important;
     top: 0;
     right: 0;
   }
-  /* line 846, ../sass/style.scss */
+  /* line 853, ../sass/style.scss */
   .recipes .container .row .col-md-8 .recipe-image {
     margin-top: auto;
     margin-right: auto;
   }
-  /* line 853, ../sass/style.scss */
+  /* line 860, ../sass/style.scss */
   .recipes:before {
     display: none;
   }
 
-  /* line 858, ../sass/style.scss */
+  /* line 865, ../sass/style.scss */
   .infographics-facts .container {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
-  /* line 861, ../sass/style.scss */
+  /* line 868, ../sass/style.scss */
   .infographics-facts .container .row {
     padding-bottom: 0 !important;
   }
-  /* line 866, ../sass/style.scss */
+  /* line 873, ../sass/style.scss */
   .infographics-facts .row div:nth-child(1) {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
     order: 13;
   }
 
-  /* line 873, ../sass/style.scss */
+  /* line 880, ../sass/style.scss */
   .supporting-research {
     background-size: cover !important;
     background-position-y: -35px;
     padding-bottom: 0 !important;
   }
-  /* line 877, ../sass/style.scss */
+  /* line 884, ../sass/style.scss */
   .supporting-research h2 {
     margin-top: 60px;
   }
-  /* line 880, ../sass/style.scss */
+  /* line 887, ../sass/style.scss */
   .supporting-research .supporting-research-slogan {
     padding-top: 20px !important;
   }
 
-  /* line 884, ../sass/style.scss */
+  /* line 891, ../sass/style.scss */
   .sub-footer {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
-  /* line 887, ../sass/style.scss */
+  /* line 894, ../sass/style.scss */
   .sub-footer .citations {
     padding-right: 20px !important;
     padding-left: 20px !important;
   }
 
-  /* line 892, ../sass/style.scss */
+  /* line 899, ../sass/style.scss */
   .footer-logo {
     position: relative;
   }
-  /* line 894, ../sass/style.scss */
+  /* line 901, ../sass/style.scss */
   .footer-logo:before, .footer-logo:after {
     width: 35%;
   }
